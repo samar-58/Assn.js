@@ -82,10 +82,3 @@ html body{
 .swiper-pagination-bullet{
     background-color: #004E89;
 }
-
-@media (max-width : 480) {
-    .card{
-        height: 400px;
-        width: 200px;
-    }
-}
