@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+   *{
+ margin: 0;
+ padding: 0;
+}
+html body{
+    background-color: #E8ECD7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.heading {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading h1{
+    color: #004B87;
+}
+.heading p{
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.slider .card-slider{
+    margin: 0 60px 35px;
+ max-width: 1100px;
+ overflow: hidden;
+ padding: 20px;
+}
+ .card{
+    user-select: none;
+    margin-top: 100px;
+    background-color: #DCE6DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img{
+   margin-top: 30px;
+    border-radius: 20px;
+    width: 70%;
+    height: 150px;
+}
+.card .about h4 {
+    font-size: 1em;
+}
+.card .about h6{
+    font-weight: 400;
+    font-size: 0.55em;
+    text-align: center;
+}
+
+.card .desc{
+    font-weight: 300;
+    margin: 20px;
+    font-size: 0.75em;
+    opacity: 0.9;
+}
+.pagination-container{
+    padding: 10px ;
+}
+.middle {
+    font-size: 20px;
+    margin-top: 75px;
+   height: 450px;
+   width: 350px;
+    z-index: 10;
+    transition: transform 0.3s ease-in-out;
+}
+.swiper-slide {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.swiper-pagination-bullet{
+    background-color: #004E89;
+}
+
+@media (max-width : 480) {
+    .card{
+        height: 400px;
+        width: 200px;
+    }
+}
